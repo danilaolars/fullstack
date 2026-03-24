@@ -1,0 +1,94 @@
+.menu{
+    display:flex;
+}
+.menu div{
+    padding:10px;
+}
+.cabecalho{
+    display:flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.cabecalho div{
+    padding:10px;
+    color: white;
+    font-size: 24px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.big_news{
+    display:flex;
+    justify-content: center;
+}
+.hot_news{
+    justify-content: flex-start;
+    height: 452px;
+    width: 700px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+.title{
+    font-size: 40px;
+    color: red;
+}
+.other_news{
+    justify-content: flex-end;
+    height: 400px;
+    width: 700px;
+    padding-left: 10px;
+}
+.item_other_news{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: large;
+    height: 200px;
+    border: 5px solid gray;
+}
+.feed{
+    display:flex;
+    justify-content: center;
+}
+.list{
+    justify-content: flex-start;
+    height: 452px;
+    width: 700px;
+    padding: 10px;
+}
+.list img{
+    justify-content: flex-start;
+}
+.see_that{
+    justify-content: flex-end;
+    padding: 10px;
+    border: 5px solid gray;
+}
+footer{
+    background-color: red;
+    color: white;
+}
+.rodape{
+    display:flex;
+    justify-content: flex-start;
+    padding:10px;
+    font-size: 24px;
+}
+.rodape div{
+    padding: 10px;
+}
+.footer_info{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.footer_info_left{
+    justify-content: flex-start;
+}
+.footer_info_right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
